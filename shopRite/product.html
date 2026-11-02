@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Shoprite – Products</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="top">Demo website – Low prices. Every day.</div>
+<header><div class="bar">
+  <a class="logo" href="index.html">Shop<span>rite</span></a>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="products.html" class="active">Products</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="about.html">About</a>
+    <a href="inquiries.html">Inquiries</a>
+    <button class="cartbtn" id="cartBtn">🛒 <span id="cartCount">0</span></button>
+  </nav>
+</div></header>
+
+<main>
+  <h2>Our products</h2>
+  <input class="search" id="search" type="search" placeholder="Search products...">
+  <div class="cards">
+    <div class="card" data-name="Fresh Bread" data-price="16.99"><div class="pic">🍞</div><div class="info"><h3>Fresh Bread</h3><span class="price">R16.99</span><button class="btn add">Add to cart</button></div></div>
+    <div class="card" data-name="Full Cream Milk 2L" data-price="38.99"><div class="pic">🥛</div><div class="info"><h3>Full Cream Milk 2L</h3><span class="price">R38.99</span><button class="btn add">Add to cart</button></div></div>
+    <div class="card" data-name="Beef Mince 1kg" data-price="109.99"><div class="pic">🥩</div><div class="info"><h3>Beef Mince 1kg</h3><span class="price">R109.99</span><button class="btn add">Add to cart</button></div></div>
+    <div class="card" data-name="Red Apples 1.5kg" data-price="39.99"><div class="pic">🍎</div><div class="info"><h3>Red Apples 1.5kg</h3><span class="price">R39.99</span><button class="btn add">Add to cart</button></div></div>
+    <div class="card" data-name="Rice 2kg" data-price="44.99"><div class="pic">🍚</div><div class="info"><h3>Rice 2kg</h3><span class="price">R44.99</span><button class="btn add">Add to cart</button></div></div>
+    <div class="card" data-name="Large Eggs x18" data-price="59.99"><div class="pic">🥚</div><div class="info"><h3>Large Eggs x18</h3><span class="price">R59.99</span><button class="btn add">Add to cart</button></div></div>
+    <div class="card" data-name="Dishwashing Liquid" data-price="32.99"><div class="pic">🧴</div><div class="info"><h3>Dishwashing Liquid</h3><span class="price">R32.99</span><button class="btn add">Add to cart</button></div></div>
+    <div class="card" data-name="Instant Coffee 250g" data-price="84.99"><div class="pic">☕</div><div class="info"><h3>Instant Coffee 250g</h3><span class="price">R84.99</span><button class="btn add">Add to cart</button></div></div>
+  </div>
+  <p class="empty" id="empty">No products found.</p>
+</main>
+
+<footer><b>Shoprite</b>2026 Shoprite Website Project </footer>
+<script src="script.js"></script>
+</body>
+</html>
